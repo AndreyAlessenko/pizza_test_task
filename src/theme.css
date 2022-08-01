@@ -1,0 +1,37 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #3F3F3F;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.modal-header{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.head{
+    height: 93px;
+    width: 100%;
+    background: #00704B;
+    margin-bottom: 40px;
+}
+
+.wrapper{
+    margin: 0 32px;
+}
+
+.ta-c{
+    text-align: center;
+}
+.ps-16 {
+    padding-left:16px ;
+}
+.cursor-p{
+    cursor: pointer;
+}

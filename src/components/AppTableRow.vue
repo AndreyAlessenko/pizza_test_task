@@ -8,11 +8,11 @@
     <span class="item_name cursor-p"  @click="this.$emit('get-info', item.id)">{{ item.name }}</span>
   </div>
   <div class="sell ps-16">{{ item.cucumber }}</div>
-  <div class="sell ps-16">{{ item.dough }}</div>
+  <div class="sell ps-16">{{ item.thickness }}</div>
   <div class="sell ta-c">{{ item.size }}</div>
   <div class="sell ta-c">{{ item.spicy ? 'Да':'Нет' }}</div>
   <div class="sell ta-c active-sell">{{ item.price }}</div>
-  <div class="sell ta-c">{{ item.date }}</div>
+  <div class="sell ta-c">{{ item.create_time }}</div>
 </template>
 
 <script>
@@ -29,11 +29,6 @@ export default {
   border: 1px #F2F2F2 solid;
   padding-top: 16px;
   padding-bottom: 16px;
-}
-
-.active-sell{
-  color: #00704B;
-  font-weight: 600;
 }
 
 .item-control{
